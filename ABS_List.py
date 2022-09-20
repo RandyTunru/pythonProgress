@@ -60,7 +60,7 @@ random.shuffle(suppliesRandomized)
 print(suppliesRandomized)
 
 print(supplies.index('pens'))  #index method returns the index of the value passed as argument
-try:    
+try:   
     print(supplies.index('notInSupplies'))
 except ValueError: #index method will raise ValueError when the argument passed isnt found in the list
     print('The value input is notInSupplies')
